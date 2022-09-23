@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Major Tom</title>
+     <title>Hello World!</title>
     <meta name="description" content="Planet Earth Is Blue and Theres Nothing I Can Do">
     <!-- Meta Data -->
     <meta property="" content="">
@@ -15,26 +15,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,700;0,800;1,300&display=swap" rel="stylesheet">
-    <!-- Scripts-->
+    <!--Script-->
     <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
-
 </head>
 
 <body>
     <header>    
         <label for="trigger" class="scroll">
             <input type="checkbox" class="trigger" id="trigger">
-
-                  
             <div class="navbut">
                 <span></span>
                 <span></span>
                 <span></span>
             </div>
-                
-        
             <div class="menubg"></div>
-
             <nav class="menu">
                 <ul class="menuitems">
                     <li><a href="https://www.youtube.com/watch?v=CeP1XJOlvzs">Our Story</a></li>
@@ -43,40 +37,38 @@
                 </ul>    
             </nav>
         </label>
-
     </header>
-
     <section class="herosquare">
-        <div class="herotxt"><h1>To The Moon</h1></div>
+        <div class="herotxt"><h1>About me</h1></div>
         <div class="story">
-            <p>Read Our Story</p>
-            <a href="https://www.youtube.com/watch?v=CeP1XJOlvzs">➔</a>
+            <p>Read Me</p>
+            <a href="#main"><iconify-icon icon="fluent:cursor-24-filled" style="color: #006c45;" width="40" height="40" flip="vertical"></iconify-icon></a>
         </div>
     </section>
-        
-    
-
     <main>
         <section class="content">
             <div class="content_filter"></div>
+            <a id="main">
             <article>
                 <div>
                     <h1 class="space">Rinna</h1> 
-                    <h1 class="ventures">L.Caston</h1>
+                    <h2 class="ventures">L.Caston</h2>
                 </div>
 
                 <h3 class="heading">Greeting from a developer</h3>
                 <p>
                 A girl named Rinna <br>
                 Who always dreams of being a programmer <br>
-                Inspired by many big tech giants like
-                   <div>
-                    Facebook <iconify-icon icon="foundation:social-facebook" width="18"></iconify-icon>             
-                    Google <iconify-icon icon="bi:google" width="18"></iconify-icon>
-                    Apple <iconify-icon icon="ant-design:apple-filled" width="18"></iconify-icon>
-                    Amazon <iconify-icon icon="ant-design:amazon-circle-filled" width="18"></iconify-icon>
-                    Microsoft <iconify-icon icon="bi:microsoft" width="18"></iconify-icon>
-                   </div>
+                Inspired by many big tech giants like 
+                <h3>
+                   <ul class="techlogo">
+                    <li>Facebook<a href="#"><iconify-icon icon="uiw:facebook" style="color: #156682;" width="20" height="20"></iconify-icon></a></li> <br>         
+                    <li>Google<a href="#"><iconify-icon icon="flat-color-icons:google" width="20" height="20"></iconify-icon></i></a></li> <br>
+                    <li>Apple<a href="#"><iconify-icon icon="ant-design:apple-filled" style="color: #fff;"" width="25" height="25"></iconify-icon></i></a></li> <br>
+                    <li>Amazon<a href="#"><iconify-icon icon="ant-design:amazon-square-filled" style="color: #fff;" width="20" height="20"></iconify-icon></a></li> <br>
+                    <li>Microsoft<a href="#"><iconify-icon icon="logos:microsoft-icon" width="20" height="20"></iconify-icon></a></li> <br>
+                   </ul>
+                </h3>
                 </p>   
 
                 <p>
@@ -119,13 +111,14 @@
                 </div>
             
             </article>
+            </a>
         </section>
-
         <footer id="cookie_banner">
             <p class="cookie_txt">I don’t know where I’m going from here, but I promise it won’t be boring. You should accept cookies.</p>
             <button class="cookie_close" onclick="document.getElementById('cookie_banner').style.display='none'" >Accept</button>
         </footer>
     </main>
+
     
     
 
