@@ -3,6 +3,10 @@
     font-family: Rubik, sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 br {
     display: block;
     margin: 3.25px 0;
@@ -73,6 +77,11 @@ header {
     visibility: hidden;
     background-color: rgba(0, 0, 0, 0.5);   
     z-index: 16;
+}
+
+.menu:hover {
+    background-color: rgba(0, 0, 0, 2.5);
+    transition-duration: 200ms;
 }
 
 .menuitems li {
@@ -161,7 +170,7 @@ header {
     text-decoration: none;
     color: black;
     left:0;
-    transition: all 0.3s ease-in-out; 
+    transition: all 0.2s ease-in-out; 
 }
 
     .story a:hover {
@@ -293,6 +302,11 @@ blockquote {
     font-size: 1.5vw;
 }
 
+@media(reduced_scroll_notion) {
+    html:focus-within{
+        scroll-behavior: auto;
+    }
+}
 
 @media screen and (min-width:1px) {
     .content {
