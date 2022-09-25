@@ -37,9 +37,9 @@ header {
 
 .navbut {
     position: absolute; 
-    margin-top: 20px;
-    margin-right: 30px;
-    margin-left: 87vw;
+    margin-top: 25px;
+    margin-right: 20px;
+    margin-left: 90vw;
     width: 75px;
     height: 75px;
     cursor: pointer;  
@@ -117,7 +117,7 @@ header {
 }
 
 .heroblock {
-    background-color: rgba(260, 260, 260, 0.12);
+    background-color: rgba(0, 0, 0, 0.12);
     position: absolute;
     height: 24.5vw;
     width: 24.5vw;
@@ -182,7 +182,7 @@ header {
     background-image: url("media-assets/stars_90deg.jpg") ;
     background-color: black;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 120%;
     background-position: 0 -10vw;
     color: white;
     width: 100vw;
