@@ -5,6 +5,7 @@
 
 html {
     scroll-behavior: smooth;
+    font-weight: 350;
 }
 
 br {
@@ -54,7 +55,7 @@ header {
     background-color: rgb(205, 0, 103);
     position: relative;
     right: 0;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.25s ease-in-out;
     z-index: 19;
 }
 
@@ -75,13 +76,13 @@ header {
     align-items: center;
     flex-direction: column;
     visibility: hidden;
-    background-color: rgba(0, 0, 0, 0.75);   
+    background-color: rgba(200, 200, 200, 0.25);
     z-index: 16;
 }
 
 .menu:hover {
     background-color: rgba(0, 0, 0, 3.5);
-    transition-duration: 200ms;
+    transition-duration: 700ms;
 }
 
 .menuitems li {
@@ -98,7 +99,6 @@ header {
     color: #edecf3;
     text-decoration: none;
     font-size: 6vw;
-    font-weight: 700;
     text-transform: uppercase;
     text-shadow: 0px 5px rgba(260, 260, 260, 0.8);
     background: transparent;
@@ -116,15 +116,15 @@ header {
     border-radius: .1em;
 }
 
-.herosquare {
-    background-color: rgba(260, 260, 260, 0.125);
+.heroblock {
+    background-color: rgba(260, 260, 260, 0.12);
     position: absolute;
-    height: 25vw;
-    width: 25vw;
+    height: 24.5vw;
+    width: 24.5vw;
     border-style: solid;
-    border-width: 2px;
-    left: 50px;
-    top: 50px;
+    border-width: 1.5px;
+    left: 60px;
+    top: 60px;
     z-index: 10;
 }
 
@@ -140,7 +140,7 @@ header {
     font-family: Rubik, sans-serif;
     font-weight: 700;
     font-size: 7vw;
-    text-align: center;
+    text-align: right;
     text-transform: uppercase;
     color: #edecf3;
 }
@@ -149,7 +149,6 @@ header {
     height: 8vw;
     display: flex; 
     justify-content: right;
-    font-weight: 700;
     font-size: 1.5vw;
     color: #edecf3;
     text-transform: uppercase;
@@ -271,7 +270,6 @@ blockquote {
 .tom_link a {
     color: rgb(205, 0, 103);
     font-size: 1.3vw;
-    font-weight: 700;
     position: relative;
     padding-left: 5px;
     padding-right: 15px;
@@ -279,7 +277,7 @@ blockquote {
     align-self: flex-end;
     text-decoration: none;
     left:0;
-    transition: all 0.2s ease-in-out
+    transition: all 0.25s ease-in-out
 }
 
 .tom_link a:hover {

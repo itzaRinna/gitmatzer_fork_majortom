@@ -17,6 +17,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,700;0,800;1,300&display=swap" rel="stylesheet">
     <!--Script-->
     <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 </head>
 
 <body>
@@ -38,9 +39,17 @@
             </nav>
         </label>
     </header>
-    <section class="herosquare">
+    <section class="heroblock">
         <div class="herotxt">
-            <h1>About me</h1>
+            <h1><span class="auto-type"></span></h1>
+            <script>
+            var typed = new Typed(".auto-type", {
+                strings:[" Hello "," Mate "],
+                typeSpeed: 150,
+                backSpeed: 150,
+                loop: true
+            })
+            </script>
         </div>
         <div class="story">
             <p>Read Me
@@ -79,7 +88,7 @@
 
             <article>
                 <blockquote>
-                    <q>Persistence is very important. You should not give up unless you are forced to give up.</q>
+                    <q>Persistence is essential. Unless you are forced to, you shouldn't give up. </q>
                 </blockquote>
                 <div class="right_side">
                     <p>
@@ -107,7 +116,7 @@
             </article>
         </section>
         <footer id="cookie_banner">
-            <p class="cookie_txt">I don’t know where I’m going from here, but I promise it won’t be boring. You should accept cookies.</p>
+            <p class="cookie_txt">I promise it won’t be boring. Here are some cookies.</p>
             <button class="cookie_close" onclick="document.getElementById('cookie_banner').style.display='none'" >Accept</button>
         </footer>
     </main>
