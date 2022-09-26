@@ -1,0 +1,79 @@
+@media screen and (max-width:1000px) {
+    
+    .tom {
+        visibility: visible;
+        width: 5rem;
+        height: 9rem;
+    }
+
+    .content{
+        background: url("media-assets/stars_90deg.jpg") no-repeat center center;
+        background-color: black;
+        background-size: cover;
+        color: white;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+    }
+
+    #cookie_banner {
+        height:5vw;
+
+    }
+
+    .cookie_txt{
+        font-size: 1.5vw;
+        padding-left: 0;
+    }
+
+    .cookie_close {
+        height: initial;
+    }
+
+    .heroblock {
+        width: 47.5vw;
+        height: 47.5vw;
+
+        border: 1px solid white;
+    }
+
+    .herotxt {
+        height: 25vw;
+    }
+
+    .herotxt h1 {
+        font-weight: 700;
+        font-size: 13vw;
+    }
+
+    .read-me {
+        font-size: 2rem;
+    }
+
+    .story {
+        margin-top: 7.5rem;
+    }
+
+    .navbut {
+        left: -3rem;
+        width: 75px;
+        height: 75px;
+    }
+
+}
+
+@media screen and (max-width:700px) {
+    .story {
+        margin-top: 4.5rem;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .read-me {
+        font-size: 1.3rem;
+    }
+
+    .story {
+        margin-top: 3.5rem;
+    }
+}
